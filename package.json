@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "beeflight",
+  "version": "0.0.1",
+  "description": "Module to connect to the beeflight server. This is the client of beeflight and can be used to coneect to the beeflight server.",
+  "author": "utkarsh shukla (utk.shukla@outlook.com)",
+  "main": "lib/beeflightclient",
+  "keywords": [
+    "beeflightclient",
+    "beehive",
+    "protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btpltech/beeflightClient.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.9.x",
+    "sinon": "1.7.x",
+    "rewire": "1.1.x"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
